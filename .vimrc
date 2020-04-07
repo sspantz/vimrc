@@ -49,9 +49,9 @@ set clipboard=unnamed,unnamedplus " copy to system register(*, +)
 " set clipboard=unnamedplus " copy to system register(+)
 
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'for': 'py'}
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-unimpaired'
 Plug 'ctrlpvim/ctrlp.vim'
